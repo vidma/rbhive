@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'rbhive/version'
 
 Gem::Specification.new do |spec|
-  spec.name = 'rbhive'
+  spec.name = 'rbhive-vidma'
   spec.version = RBHive::VERSION
   spec.authors = %w(Forward3D KolobocK)
   spec.description = 'Simple gem for executing Hive queries and collecting the results'
